@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:700|Playfair+Display:400,400i,900');
+
+
+// === Variables === //
+
+// Font variables
+$sans-serif: 'Khula', sans-serif;
+$serif: 'Playfair Display', serif;
+
+$black: 900;
+$bold: 700;
+$regular: 400;
+$italic: italic;
+
+// Color variables
+$white: #FFF;
+$grey: #babbbc;
+
+$primary: #29445a;
+$primary-light: #5d7b94;
+
+$text-color: $grey;
+
+
+
+// === Styles === //
+
+// Global
+
+* { box-sizing: border-box; }
+
+body {
+	margin: 0;
+	font-family: $serif;
+	font-size: 1.125rem;
+	color: $grey;
+	background: url(../img/our-team-bg.png);
+	background-size: cover;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+// Typography
+
+h1, h2, h3, p { margin: 0; }
+
+h1 {
+	font-size: calc(4rem + 3vw);
+	font-weight: $black;
+	color: $white;
+	text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: $bold;
+	font-family: $sans-serif;
+	color: $grey;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1rem;
+	font-weight: $regular;
+	color: $primary-light;
+	font-style: italic;
+}
